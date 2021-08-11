@@ -30,5 +30,3 @@ fields:
   default: page-3.yml
   config:
     required: true
-pages:
-- test3.md

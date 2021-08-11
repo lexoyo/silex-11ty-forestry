@@ -35,6 +35,3 @@ fields:
   default: page-2.yml
   config:
     required: true
-pages:
-- test.md
-- test1.md
