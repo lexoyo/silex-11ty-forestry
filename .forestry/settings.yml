@@ -5,20 +5,22 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: content/pages
+  path: ''
   label: Pages
-  create: documents
-  match: "**/*.md"
+  create: all
+  match: "**/*"
+  templates:
+  - page-4
+  - page-3
+  - page-1
+  - page-2
 - type: directory
-  path: content/posts
-  label: Posts
+  path: pages-with-modules
+  label: Pages w/ modules
   create: documents
-  match: "**/*.md"
-- type: directory
-  path: content/products
-  label: Products
-  create: documents
-  match: "**/*.md"
+  match: "**/*"
+  templates:
+  - test-modules
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
