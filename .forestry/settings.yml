@@ -5,18 +5,8 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: ''
+  path: pages
   label: Pages
-  create: all
-  match: "**/*"
-  templates:
-  - page-4
-  - page-3
-  - page-1
-  - page-2
-- type: directory
-  path: pages-with-modules
-  label: Pages w/ modules
   create: documents
   match: "**/*"
   templates:
