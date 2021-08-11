@@ -14,5 +14,9 @@ modules:
     text: Desktop friendly
   - image: "/uploads/1484611457_15-pencil.png"
     text: Unique Design
+- template: side-image-module
+  image: "/uploads/mobile_header-small.jpg"
+  text: "## A Landing Page  \nFor Your App\n\nYou can customize this web page with[
+    Silex website builder](http://www.silex.me/)."
 
 ---
