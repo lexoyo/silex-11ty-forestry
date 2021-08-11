@@ -8,6 +8,13 @@ fields:
   config:
     required: false
   label: Permalink
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
+  default: home
+  hidden: true
 - name: seo
   type: field_group
   config: {}
@@ -32,10 +39,3 @@ fields:
   config:
     min: 
     max: 
-- name: layout
-  type: text
-  config:
-    required: false
-  label: layout
-  default: home
-  hidden: true
