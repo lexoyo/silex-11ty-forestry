@@ -1,6 +1,7 @@
 ---
-label: Template
+label: Template Home
 hide_body: true
+display_field: permalink
 fields:
 - name: permalink
   type: text
@@ -31,5 +32,10 @@ fields:
   config:
     min: 
     max: 
-pages:
-- pages-with-modules/test-modules.md
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
+  default: home
+  hidden: true
